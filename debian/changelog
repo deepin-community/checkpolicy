@@ -1,3 +1,24 @@
+checkpolicy (3.5-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Repository, Repository-Browse.
+  * Update standards version to 4.6.2, no changes needed.
+
+  [ Laurent Bigonville ]
+  * New upstream release
+    - debian/control: Bump build-dependencies to match the new release
+  * debian/upstream/signing-key.asc: Add public key of Jason Zaman
+
+ -- Laurent Bigonville <bigon@debian.org>  Mon, 10 Jul 2023 20:52:31 +0200
+
+checkpolicy (3.4-1) unstable; urgency=medium
+
+  * New upstream release
+    - debian/control: Bump build-dependencies to match the new release
+  * Enable GPG key validation of the upstream tarball
+
+ -- Laurent Bigonville <bigon@debian.org>  Sat, 04 Jun 2022 12:59:27 +0200
+
 checkpolicy (3.3-1) unstable; urgency=medium
 
   [ Christian Göttsche ]

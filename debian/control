@@ -6,11 +6,11 @@ Section: utils
 Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Uploaders: Laurent Bigonville <bigon@debian.org>,
            Russell Coker <russell@coker.com.au>
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Build-Depends: bison,
                debhelper-compat (= 13),
                flex,
-               libsepol-dev (>= 3.3)
+               libsepol-dev (>= 3.5)
 Homepage: https://selinuxproject.org
 Rules-Requires-Root: no
 
